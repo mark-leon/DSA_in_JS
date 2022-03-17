@@ -1,0 +1,27 @@
+
+When LinkedList object is created but no element
+LinkedList { head: null, size: 0 }
+
+
+LinkedList after one element insert   add(5)
+LinkedList { head: Node { element: 5, next: null }, size: 1 }
+
+
+LinkedList after two element insert
+add(5)
+add(20)
+LinkedList {
+  head: Node { element: 10, next: Node { element: 20, next: null } },
+  size: 2
+}
+
+
+
+LinkedList after three element insert
+add(5)
+add(20)
+add(7)
+LinkedList {
+  head: Node { element: 10, next: Node { element: 20, next: Node { element: 7, next: null } } },
+  size: 3
+}

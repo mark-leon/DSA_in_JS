@@ -1,0 +1,1 @@
+How a for loop works like recursion, for loop hs three parts, one is initialization, one is the condition which is base cae in recursion and the increment or decrement park is the recursive function which is being called over the times.
